@@ -1,0 +1,20 @@
+[
+  {
+    "ids": "ga:xxxxxxxx",
+    "start-date": "xxxx-xx-xx",
+    "end-date": "xxxx-xx-xx",
+    "metrics": "ga:sessions",
+    "dimensions": "ga:keyword",
+    "sort": "-ga:sessions",
+    "max-results": 10
+  },
+  {
+    "ids": "ga:xxxxxxxx",
+    "start-date": "xxxx-xx-xx",
+    "end-date": "xxxx-xx-xx",
+    "metrics": "ga:sessions",
+    "dimensions": "ga:keyword",
+    "sort": "-ga:sessions",
+    "max-results": 10
+  }
+]

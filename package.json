@@ -1,0 +1,19 @@
+{
+  "name": "wallboarder-ga-board",
+  "description": "Generate a wallboard with Google Analytics Data.",
+  "author": "James Harding <james@jamesharding.me>",
+  "license": "MIT",
+  "repository": "https://github.com/hjamesw93/wallboarder-ga-board",
+  "main": "app.js",
+  "version": "0.1.0",
+  "engines": {
+    "node": "5.10.1"
+  },
+  "dependencies": {
+    "request": "^2.70.0"
+  },
+  "scripts": {
+    "start": "forever start app.js",
+    "stop": "forever stop app.js"
+  }
+}
