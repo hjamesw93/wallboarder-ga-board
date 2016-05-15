@@ -1,5 +1,5 @@
 node_modules/*
 .idea/*
 config/config.js
-config/queries.json
+config/data.json
 config/key.pem

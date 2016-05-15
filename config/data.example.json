@@ -1,0 +1,24 @@
+{
+  "title": "Keywords",
+  "url": "ga_test",
+  "queries": [
+    {
+      "ids": "ga:xxxxxxxx",
+      "start-date": "YYYY-xx-xx",
+      "end-date": "YYYY-xx-xx",
+      "metrics": "ga:sessions",
+      "dimensions": "ga:keyword",
+      "sort": "-ga:sessions",
+      "max-results": 10
+    },
+    {
+      "ids": "ga:xxxxxxxx",
+      "start-date": "YYYY-xx-xx",
+      "end-date": "YYYY-xx-xx",
+      "metrics": "ga:sessions",
+      "dimensions": "ga:keyword",
+      "sort": "-ga:sessions",
+      "max-results": 10
+    }
+  ]
+}
