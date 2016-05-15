@@ -1,11 +1,12 @@
+
 'use strict';
 
-const host = process.env.appHost || 'localhost';
-const port = process.env.appPort || 3000;
-
 module.exports = {
-    host: host,
-    port: port,
-    slackToken: "<slack_token>",
-    wbAPI: "<Wallboarder API URL>"
+    GA: {
+        SERVICE_ACCOUNT_EMAIL: 'Google Service account email',
+        SERVICE_ACCOUNT_KEY_FILE: __dirname + '/key.pem'
+    },
+    WB_APP: {
+        URL: 'Wallboarder URL'
+    }
 };
