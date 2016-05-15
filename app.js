@@ -35,8 +35,6 @@ authClient.authorize(function(err, tokens) {
 
     forEach(queries, function(item, index, arr) {
         item.params.auth = authClient;
-        
-        
         analytics.data.ga.get(item.params, function(err, res) {
             if (err) console.log(err);
             else {
@@ -59,7 +57,7 @@ authClient.authorize(function(err, tokens) {
     }, function(notAborted, res) {
         console.log(wb);
 
-        request.post({url: config.WB_APP.URL + '/api/v1/upsert', form: {internal: false, wb: wb}}, function(err){
+        request.post({url: config.WB_APP.URL + '/api/v1/upsert', form: {wb: wb}}, function(err){
             if (!err) return true;
         });
     });
